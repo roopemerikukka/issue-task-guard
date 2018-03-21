@@ -1,0 +1,28 @@
+{
+  "name": "issue-task-guard",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Roope Merikukka <roope.merikukka@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/roopemerikukka/issue-task-guard.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 9.4.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
