@@ -1,7 +1,6 @@
 FROM node:9.4.0
 
 ENV NODE_ENV production
-ENV PRIVATE_KEY my-private-key
 
 WORKDIR /app
 
